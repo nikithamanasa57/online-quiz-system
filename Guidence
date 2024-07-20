@@ -1,0 +1,18 @@
+0. Download Zip file
+1. Extract 
+2. cd folder
+3. python -m venv env.
+4. open VSC
+5. click extension
+6. python extension install
+7. ctrl + shift + p
+8. Python: Select Interpreter
+9. click Enter interpreter Path
+10. Click find..
+11. select env/Script/python.exe
+12.Terminal > New Terminal
+13. python -m pip install -r requirements.txt
+14. cd navigus
+15. python manage.py makemigrations
+16. python manage.py migrate
+17. python manage.py runserver
